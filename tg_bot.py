@@ -11,7 +11,6 @@ import numpy as np
 import os
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 lang_dict = {"English": "en", "Русский": "ru", "Қазақ": "kk"}
-os.environ['GROQ_API_KEY'] = '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'
 
 
 class Form(StatesGroup):
@@ -120,5 +119,5 @@ class LeafletChatBot:
 
 # Replace 'YOUR_BOT_TOKEN' with your bot's API token
 if __name__ == "__main__":
-    bot = LeafletChatBot("7053665344:AAFTjp0KPFCYBMdTBfJVeXJmO6x8z0soU7k")
+    bot = LeafletChatBot(os.getenv('TOKEN'))
     bot.run()

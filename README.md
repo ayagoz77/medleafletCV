@@ -11,7 +11,7 @@ Finally simply run
 python tg_bot.py
 ```
 -
-Use text_handler.py with specifying your cfg.yaml
+Use text_handler.py with your cfg.yaml
 ```bash
 python text_handler.py --cfg your_cfg.yaml
 ```
@@ -33,5 +33,5 @@ Each folder explanation for further unit testing:
 └── utils
     ├── __init__.py
     ├── quality_enhancer.py     - brightness and contrast enhancer
-    └── text_extractor.py       - morphology operator applied class for text bboxes extracting
+    └── text_extractor.py       - morphology operator for text bboxes extracting
 ```

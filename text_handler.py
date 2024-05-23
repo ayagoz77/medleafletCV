@@ -3,7 +3,6 @@ from utils import QualityEnhancer, TextExtractor
 from block_extractor import TextBlockIdentifier, TextBBoxCluster
 import cv2
 import pytesseract
-from groq import Groq
 import numpy as np
 import os
 
@@ -160,3 +159,14 @@ class TextHandler:
         if self.debug:
             cv2.imwrite("debug_imgs/text_blocks.png", img)
         return text
+
+
+if __name__ == "__main__":
+    from argparse import ArgumentParser
+    parser = ArgumentParser()
+    parser.add_argument("--cfg", required=False, default="cfg.yaml")
+
+    args = parser.parse_args()
+
+    handler = TextHandler(**args.cfg)
+    print(handler())

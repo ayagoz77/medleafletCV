@@ -10,7 +10,7 @@ Finally simply run
 ```bash
 python tg_bot.py
 ```
--
+---
 Use text_handler.py with your cfg.yaml
 ```bash
 python text_handler.py --cfg your_cfg.yaml

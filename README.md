@@ -6,7 +6,7 @@ Install requirements into your env.
 pip install -r requirements.txt
 ```
 Create .env file and set variables GROQ_API_KEY(groq cloud api key) and TOKEN(bot father from telegram)
-Finally simply run
+and simply run
 ```bash
 python tg_bot.py
 ```

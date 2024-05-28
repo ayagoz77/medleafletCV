@@ -1,7 +1,12 @@
-# medleafletCV
 repo for detecting text and processing prompts related with detected text with llama3 api
 -
-Install requirements into your env.
+![image](https://github.com/ayagoz77/medleafletCV/assets/72253810/851a3fb6-43c9-473a-a0f6-3934b70d0ce3)
+---
+TesseractOCR is used for OCR step and Layout Analysis step is simplified for demo version and looks like:
+
+![image](https://github.com/ayagoz77/medleafletCV/assets/72253810/1debbbf7-25d8-446d-86e3-23a78ad6cc97)
+
+Install requirements to your env.
 ```bash
 pip install -r requirements.txt
 ```
@@ -36,6 +41,6 @@ Each folder explanation for further unit testing:
     └── text_extractor.py       - morphology operator for text bboxes extracting
 ```
 Further improvements:
-- Replace OCR model (now TesseractOCR is used)
+- Replace OCR model
 - Try integrate ViT for direct processing
 - Better prompt engineering

@@ -42,5 +42,5 @@ Each folder explanation for further unit testing:
 ```
 Further improvements:
 - Replace OCR model
-- Try integrate ViT for direct processing
+- ViT for direct processing
 - Better prompt engineering

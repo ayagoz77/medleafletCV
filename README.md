@@ -35,3 +35,7 @@ Each folder explanation for further unit testing:
     ├── quality_enhancer.py     - brightness and contrast enhancer
     └── text_extractor.py       - morphology operator for text bboxes extracting
 ```
+Further improvements:
+- Replace OCR model (now TesseractOCR is used)
+- Try integrate ViT for direct processing
+- Better prompt engineering

@@ -141,7 +141,7 @@ class TextHandler:
         c = 0
         for x in range(1, len(clusters_x)):
             x1, x2 = clusters_x[x-1], clusters_x[x]
-            if x1 - 5 > 0:
+            if x1 - 2 > 0:
                 x1 -= 5
             for i in range(1, n_blocks+1):
                 y1, y2 = l_y[i-1], l_y[i]
